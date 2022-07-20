@@ -1,10 +1,9 @@
-let x = 0;
-let y = 0;
-
 const moves = ["north", "north", "west", "west", "north", "east", "north"];
 
 const finalPosition = (moves) => {
-  for (move of moves) {
+  let x = 0;
+  let y = 0;
+  for (let move of moves) {
     switch (move) {
       case "north":
         y += 1;
