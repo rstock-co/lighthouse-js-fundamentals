@@ -6,7 +6,7 @@ const stations = [
   ["Moose Mountain Community Centre", 45, "community centre"],
 ];
 
-const chooseStations = (stations) => {
+const chooseStations = stations => {
   let goodstations = [];
   for (let i = 0; i < stations.length; i++) {
     let stationName = stations[i][0];
